@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>mobile-form-two</title>
+    <link href="./css/default.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+</head>
+
+
+<body>
+    <nav class="navbar">
+
+
+    </nav>
+
+    <form action="input">
+        <header>
+            <div class="header-hero">
+                <div style="margin-left: 22px; margin-right: 0;">&#9776;</div>
+                <p style="margin-left:25px;">
+                    Contacts
+                </p>
+                <div style="transform: scale(1.5); margin-right:0; ">&#8981;</div>
+                <i class="bi-three-dots-vertical"></i>
+            </div>
+        </header>
+        <section>
+            <fieldset class="basic-info">
+                <i class="bi-person"></i>
+                <div class="name">
+                    <label for="fname">
+                        <input placeholder="Name" id="fname" type="text" class="name">
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset class="contact">
+                <i class="bi-telephone"></i>
+                <div class="pnum">
+                    <label for="pnum">
+                        <input placeholder="Phone Number" type="tel" name="pnum" id="pnum"
+                            pattern="+[1]{1}[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </label>
+                    <div class="pnum-label">
+                        <label>
+                            <select name="label" id="label">
+                                <option value="0">Label</option>
+                                <option value="1">Label 1</option>
+                                <option value="2">Label 2</option>
+                                <option value="3">Label 3</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <i class="bi-house-door"></i>
+                <div class="address">
+                    <div class="address-div">
+                        <label for="address">
+                            <input placeholder="Address" id="address" type="text">
+                        </label>
+                        <label for="city">
+                            <input placeholder="City" type="text" id="city">
+
+                        </label>
+                    </div>
+                    <div class="state-zip">
+                        <label class="state" for="state">
+                            <select name="state" id="state">
+                                <option value="0">State: </option>
+                                <option value="1">State Example 1</option>
+                                <option value="2">State Example 2</option>
+                                <option value="3">State Example 3</option>
+                                <option value="4">State Example 4</option>
+                                <option value="5">State Example 5</option>
+                            </select>
+                        </label>
+                        <label class="zip" for="zip">
+                            <input placeholder="Zip Code" type="text" name="zip" id="zip">
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <i class="bi-envelope"></i>
+                <label for="email">
+                    <input placeholder="E-Mail" id="email" type="text" class="email">
+                </label>
+            </fieldset>
+            <fieldset class="birthday">
+                <label for="birthday">
+                    <div class="birthday">
+                        &#127874;
+                        <p>Birthday: </p>
+                        <input type="date" name="birthday" id="birthday">
+                </label>
+                </div>
+            </fieldset>
+        </section>
+    </form>
+
+    <footer> </footer>
+    <script src="./script.js"> </script>
+</body>
+
+</html>

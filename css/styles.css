@@ -1,0 +1,171 @@
+* {
+  margin: auto;
+}
+
+.state-zip {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  width: 100%;
+  gap: 10px;
+}
+
+.state-zip input {
+}
+
+.state {
+}
+
+.zip {
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  background-color: #fefefe;
+  width: 100%;
+}
+
+fieldset {
+  /* height: 100%; */
+  display: flex;
+  border: none;
+  /* flex-direction: column; */
+  padding: 1em;
+  gap: 10px;
+}
+
+.basic-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  /* padding: 10px; */
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+}
+
+::placeholder {
+  padding: 10px;
+}
+
+.bi-house-door {
+  margin-top: 0;
+}
+
+.name {
+  /* display: inline; */
+  width: 100%;
+}
+.pnum {
+  display: flex;
+  gap: 10px;
+  /* display: inline; */
+  width: 100%;
+}
+/* 
+.pnum input {
+  width: 100%;
+} */
+
+label {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+}
+
+.pnum-label {
+  /* display: flex; */
+  width: 100%;
+
+  /* width: 100%; */
+}
+
+i {
+  color: black;
+  margin: 5px;
+  align-self: center;
+}
+
+.bi-three-dots-vertical {
+  color: white;
+  align-self: center;
+}
+.pnum p {
+  display: inline;
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+.header-hero {
+  display: flex;
+  width: 100%;
+  background-color: #4e13bd;
+  color: white;
+  height: 50px;
+  /* margin: auto; */
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.address-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.birthday {
+  display: flex;
+  width: 100%;
+  color: #7c7c7c;
+  flex-direction: row;
+  /* gap: 10px; */
+}
+
+.birthday > input {
+  width: 50%;
+  margin-right: 0;
+}
+
+.birthday > p {
+  margin-top: 5px;
+}
+h1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 > div {
+  margin: 0;
+}
+
+h1 > i {
+  margin: 0;
+}
